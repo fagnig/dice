@@ -8,6 +8,8 @@ import org.junit.Test;
 
 import terning.Dice;
 
+//Testing of dice behaviour
+
 public class testDice {
 	Dice d1;
 	@Before
