@@ -24,7 +24,7 @@ public class testDice {
 		int antalTerningKast = 60000;
 		
 		for (int i=1; i<=antalTerningKast; i++) {
-			if (d1.roll()<1 && d1.roll()>6) {
+			if (d1.roll()<1 || d1.roll()>6) {
 				fail("outside bounds");
 			}
 		}
