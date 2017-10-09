@@ -20,7 +20,9 @@ public class testDice {
 	@After
 	public void tearDown() throws Exception {
 	}
-
+	
+	//Test af terningrul
+	
 	@Test
 	public void testRollBounds() {
 		int antalTerningKast = 60000;
